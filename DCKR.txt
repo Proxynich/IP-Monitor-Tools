@@ -1,0 +1,3 @@
+# Copy and Run at the Terminal #
+docker run -d -p 9090:9090 -v $(pwd)/prometheus.yml:/etc/prometheus/prometheus.yml --name prometheus prom/prometheus
+docker run -d -p 3000:3000 --name grafana grafana/grafana
