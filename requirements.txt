@@ -2,7 +2,7 @@ beautifulsoup4
 schedule
 Flask
 python-telegram-bot
-sqlite3
 ipaddress
 datetime
 prometheus_client
+schedule
